@@ -1,4 +1,4 @@
-# mlss
+# Machine Learning Summer School Tutorial
 Repository for the Machine learning summer school tutorial 
 
 #Tutorial 
