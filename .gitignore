@@ -33,14 +33,14 @@ env/
 .ipynb_checkpoints/
 
 # Model checkpoints and weights
-models/
+#models/
 
 # Logs and output files
 logs/
 output/
 
 # Data files
-data/
+#data/
 
 # Temporary files
 tmp/
