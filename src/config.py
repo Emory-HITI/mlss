@@ -15,12 +15,12 @@ IMAGE_HEIGHT = 256
 IMAGE_WIDTH = 256
 IMAGE_CHANNEL = 3
 
-TRAIN_BATCH_SIZE = 16
-VALID_BATCH_SIZE = 32
-NUM_WORKER = 8
+TRAIN_BATCH_SIZE = 64
+VALID_BATCH_SIZE = 128
+NUM_WORKER = 30
 
 if torch.cuda.is_available():
-    DEVICE = 'cuda'
+    DEVICE = 'cuda:1'
 else:
     DEVICE = 'cpu'
 
@@ -64,3 +64,5 @@ RESNET50.fc = nn.Sequential(
         nn.ReLU(inplace=True),
         nn.Linear(in_features=128,out_features=NUM_CLASSES)
     )
+
+#Add some more models 
