@@ -1,0 +1,66 @@
+# Ignore the dataset files and the csvs
+*.csv
+*.jpeg
+*.png
+*.jpg
+
+# ignore the models when pushing code to github
+*.tar
+
+# ignore the ipython checkpoints
+*.ipynb_checkpoints
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compiled binaries for macOS
+*.dylib
+*.DS_Store
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Python virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints and weights
+#models/
+
+# Logs and output files
+logs/
+output/
+
+# Data files
+#data/
+
+# Temporary files
+tmp/
+temp/
+
+# Images and videos
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.avi
+*.mp4
+
+# Model configuration files
+*.cfg
+*.yaml
+*.yml
+
+# Generated files
+generated/
