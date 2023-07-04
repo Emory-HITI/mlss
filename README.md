@@ -4,8 +4,6 @@ Repository for the Machine learning summer school tutorial
 #Tutorial 
 Decoding the Invisible: A Comprehensive Guide to Understanding and Overcoming Limitations of explanations in Radiology AI Image Interpretation
 
----
-
 ## Virtual Environment Setup
 
 1. Make sure Python 3 is installed on your system. You can check the version by running the following command:
@@ -92,3 +90,4 @@ The mentioned directory will have multiple files as listed below
 - epoch_70.pth.tar
 The above are the weights saved at every 20 iterations, the reason to have these is that if the system crashes or some unusual interuption in the model training arrises, one can load the weights and continue the training. 
 Note: The frequency for this can be change in src/config.py by changing the value of SAVE_WEIGHTS_INTERVAL
+
