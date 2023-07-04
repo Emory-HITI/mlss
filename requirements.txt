@@ -1,0 +1,9 @@
+torch
+torchvision
+pydicom
+scikit-image
+numpy
+tqdm
+torchmetrics
+scikit-learn
+tensorboard
