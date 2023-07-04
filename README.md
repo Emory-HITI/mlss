@@ -74,7 +74,7 @@ Once downloaded, place the zip file under the data directory of the project fold
 ---
 ## Visualising the logs
 #### After the model is trained and [Tensorboard](https://pytorch.org/docs/stable/tensorboard.html) logs are generated, you can visualize in your browser by running the following command in the command line/terminal.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```tensorboard --logdir "-DIRECTORY WHERE THE LOGS ARE-"```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```tensorboard --logdir "-DIRECTORY WHERE THE LOGS ARE-"``` </br>
 if you are following the same directory structure, the logs should be in mlss/logs/V0/MODEL_NAME/CURRENT_DATE/events.out.tfevents**
 
 Note: 
